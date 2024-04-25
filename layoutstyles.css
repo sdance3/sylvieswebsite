@@ -1,0 +1,120 @@
+body {background-color: rgb(242, 213, 218);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black; }
+
+.text {
+   color: darkorange;
+   font-size: calc(.8vw);
+
+}
+
+ .common {
+    background-color: peachpuff;
+    border: 2px solid orange;
+    color: darkorange;
+    position: absolute;
+    text-align: justify;
+    white-space: nowrap;
+    padding: 10px;
+ }
+
+.menulinks{
+   font-size: 100%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: underline;
+   margin: 20px;
+}
+.menutitle{
+   margin: 20px;
+}
+
+ .headertitle{
+   top: 10px;
+   left: 25%;
+   z-index: 102;
+   font-size: 30px;
+   border: none;
+   font-size: calc(2vw);
+   
+ }
+ .header{
+    top: 5px;
+    left: 5px;
+    right: 49.91%;
+    height: 100px;
+    z-index: 101;
+    border-right: none;
+ }
+
+ .rightheader{
+   top: 5px;
+   left: 49.91%;
+   right: 5px;
+   height: 100px;
+   z-index: 103;
+   
+ }
+ .rightheadertitle{
+   top: 10px;
+   left: 250px;
+   z-index: 102;
+   font-size: 30px;
+   border: none;
+ }
+
+ .leftmenu{
+    top: 110px;
+    left: 5px;
+    bottom: 40px;
+    width: 115px;
+    
+ }
+ .mainbodyleft{
+   left: 5px;
+   top: 110px;
+   bottom: 0px;
+   right: 54%;
+   word-wrap: normal;
+   font-size: calc(1.15vw);
+
+ }
+
+
+ .mainbodyleftbottom{
+   left: -2px;
+   right: -2px;
+   top: 230px;
+   bottom: 15px
+   
+}
+   
+.video{
+   width: calc(43vw);
+   height: calc(22.5vw)
+}
+
+ .mainbody{
+    top: 110px;
+    left: 45%;
+    right: 5px;
+    bottom: 40px;
+    padding-bottom: 10px;
+    background-image: url(../images/Court.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-blend-mode: lighten;
+ }
+ 
+ .footer{
+    right: 5px;
+    left: 5px;
+    bottom: 0px;
+    height: 15px;
+    font-size: 15px;
+    color: darkorange;
+    text-align:center;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }

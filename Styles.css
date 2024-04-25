@@ -1,0 +1,17 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: orange;
+    background-color:lightsalmon;
+}
+li{ font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+font-size: 15px;
+color: darkblue;}
+.light {font-weight: lighter;}
+.justify {text-align:center;}
+.homebg {
+background-image: url(../images/Screenshot\ 2023-12-18\ at\ 9.16.43\ PM.png);
+background-position: top right;
+background-repeat: repeat;
+background-size: 300px;
+}
